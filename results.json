@@ -1,0 +1,19 @@
+[
+    {
+        "Clasificador": "KNN",
+        "Par\u00e1metros": {
+            "Optimizar valor de K": true,
+            "M\u00e9trica": "Euclidiana",
+            "Ponderaci\u00f3n": "Uniforme",
+            "Tecnica de validaci\u00f3n": "Holdout",
+            "Proporci\u00f3n": 0.8,
+            "Reducci\u00f3n de dimensionalidad": "Ninguna",
+            "K": 6
+        },
+        "Exactitud": 1.0,
+        "Precisi\u00f3n": 1.0,
+        "Sensibilidad": 1.0,
+        "Especificidad": 0.9999999949916457,
+        "Tiempo de ejecuci\u00f3n": 0.8900277614593506
+    }
+]

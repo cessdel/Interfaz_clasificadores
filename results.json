@@ -1,103 +1,16 @@
 [
     {
-        "Clasificador": "KNN",
-        "Par\u00e1metros": {
-            "Optimizar valor de K": true,
-            "M\u00e9trica": "Chebyshev",
-            "Ponderaci\u00f3n": "Uniforme",
-            "Tecnica de validaci\u00f3n": "Holdout",
-            "Proporci\u00f3n": 0.8,
-            "Reducci\u00f3n de dimensionalidad": "Ninguna",
-            "K": 5
-        },
-        "Exactitud": 0.9666666666666667,
-        "Precisi\u00f3n": 0.9694444444444444,
-        "Sensibilidad": 0.9666666666666667,
-        "Especificidad": 0.982456135434859,
-        "Tiempo de ejecuci\u00f3n": 0.9816484451293945
-    },
-    {
-        "Clasificador": "KNN",
-        "Par\u00e1metros": {
-            "Optimizar valor de K": true,
-            "M\u00e9trica": "Euclidiana",
-            "Ponderaci\u00f3n": "Uniforme",
-            "Tecnica de validaci\u00f3n": "Holdout",
-            "Proporci\u00f3n": 0.8,
-            "Reducci\u00f3n de dimensionalidad": "PCA",
-            "Componentes": 2,
-            "Varianza": 0.95,
-            "K": 3
-        },
-        "Exactitud": 1.0,
-        "Precisi\u00f3n": 1.0,
-        "Sensibilidad": 1.0,
-        "Especificidad": 0.9999999949916457,
-        "Tiempo de ejecuci\u00f3n": 0.8634812831878662
-    },
-    {
-        "Clasificador": "KNN",
-        "Par\u00e1metros": {
-            "Optimizar valor de K": true,
-            "M\u00e9trica": "Euclidiana",
-            "Ponderaci\u00f3n": "Uniforme",
-            "Tecnica de validaci\u00f3n": "K-Fold",
-            "Folds": 10,
-            "Reducci\u00f3n de dimensionalidad": "PCA",
-            "Componentes": 2,
-            "Varianza": 0.95,
-            "K": 3
-        },
-        "Exactitud": 0.9733333333333334,
-        "Precisi\u00f3n": 0.9733333333333334,
-        "Sensibilidad": 0.9733333333333334,
-        "Especificidad": 0.98666666568,
-        "Tiempo de ejecuci\u00f3n": 0.762343168258667
-    },
-    {
-        "Clasificador": "Distancia M\u00ednima",
+        "Clasificador": "KD-Tree",
         "Par\u00e1metros": {
             "M\u00e9trica": "Euclidiana",
-            "Tecnica de validaci\u00f3n": "K-Fold",
-            "Folds": 10,
-            "Reducci\u00f3n de dimensionalidad": "PCA",
-            "Componentes": 2,
-            "Varianza": 0.95
+            "K": 5,
+            "T\u00e9cnica de validaci\u00f3n": "K-Fold",
+            "Folds": 5
         },
-        "Exactitud": 0.9666666666666667,
-        "Precisi\u00f3n": 0.9694444444444444,
-        "Sensibilidad": 0.9666666666666667,
-        "Especificidad": 0.982456135434859,
-        "Tiempo de ejecuci\u00f3n": 0.012777090072631836
-    },
-    {
-        "Clasificador": "Distancia M\u00ednima",
-        "Par\u00e1metros": {
-            "M\u00e9trica": "Euclidiana",
-            "Tecnica de validaci\u00f3n": "K-Fold",
-            "Folds": 36,
-            "Reducci\u00f3n de dimensionalidad": "PCA",
-            "Componentes": 2,
-            "Varianza": 0.95
-        },
-        "Exactitud": 0.9666666666666667,
-        "Precisi\u00f3n": 0.9694444444444444,
-        "Sensibilidad": 0.9666666666666667,
-        "Especificidad": 0.982456135434859,
-        "Tiempo de ejecuci\u00f3n": 0.014432191848754883
-    },
-    {
-        "Clasificador": "Distancia M\u00ednima",
-        "Par\u00e1metros": {
-            "M\u00e9trica": "Euclidiana",
-            "Tecnica de validaci\u00f3n": "K-Fold",
-            "Folds": 36,
-            "Reducci\u00f3n de dimensionalidad": "Ninguna"
-        },
-        "Exactitud": 0.9666666666666667,
-        "Precisi\u00f3n": 0.9694444444444444,
-        "Sensibilidad": 0.9666666666666667,
-        "Especificidad": 0.982456135434859,
-        "Tiempo de ejecuci\u00f3n": 0.016299009323120117
+        "Exactitud": 0.6355140186915887,
+        "Precisi\u00f3n": 0.6297360116518995,
+        "Sensibilidad": 0.6355140186915887,
+        "Especificidad": 0.9147434566080107,
+        "Tiempo de ejecuci\u00f3n": 0.3938000202178955
     }
 ]
